@@ -26,7 +26,8 @@
     font-weight: 400;
 }
 
-.font-1-m, .font-1-m-b {
+.font-1-m, 
+.font-1-m-b {
     font-size: 1.125rem;
     line-height: 1.35;
     font-family: 'Poppins', sans-serif;
@@ -51,7 +52,8 @@
     font-weight: 400;
 }
 
-.font-2-l, .font-2-l-b {
+.font-2-l, 
+.font-2-l-b {
     font-size: 1.5rem;
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
