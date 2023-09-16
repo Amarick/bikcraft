@@ -1,7 +1,7 @@
+/* sendo usado em todas as paginas */
 @import './global/global.css';
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
-
 @import './global/header.css';
 @import './global/footer.css';
 
@@ -20,10 +20,9 @@
 
 /* seguros */
 @import './seguros/seguros.css';
+@import './seguros/vantagens.css';
+@import './seguros/perguntas.css';
+
 
 /* termos */
 @import './termos/termos.css';
-
-
-
-
