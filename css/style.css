@@ -1,11 +1,11 @@
-/* sendo usado em todas as paginas */
+/* estilos globais que estou utilizando em todas as paginas */
 @import './global/global.css';
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
 @import './global/header.css';
 @import './global/footer.css';
 
-/* home */
+/* estilos da home */
 @import './home/introducao.css';
 @import './home/tecnologia.css';
 @import './home/parceiros.css';

@@ -1,3 +1,7 @@
+.bicicleta-bg {
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+  }
+  
 .bicicleta {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -5,6 +9,7 @@
     gap: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
+    background: url('../../assets/dec/top-right.svg') no-repeat top 40px right 20px;
 }
 
 #bicicleta .titulo p {
@@ -98,22 +103,28 @@
 
 
 @media (max-width: 800px) {
+    .bicicleta-bg {
+      background: var(--cor-11);
+    }
     .bicicleta {
       grid-template-columns: 1fr;
+      gap: 20px;
       padding-top: 40px;
       padding-bottom: 40px;
     }
-    .bicicleta-imagens {
-      grid-row: 2;
-    }
   }
   
-  @media (max-width: 400px) {
-    .bicicleta-informacoes {
+  @media (max-width: 600px) {
+    .bicicleta-conteudo {
       grid-template-columns: 1fr;
     }
-    .bicicleta-comprar {
-      grid-template-columns: 1fr;
+    .bicicletas ul {
+      font-size: 1rem;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 32px;
+    }
+    .bicicletas a {
+      place-self: start;
     }
   }
   
